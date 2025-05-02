@@ -1,0 +1,28 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+h1{
+  font-size: 100px;
+}
+#container{
+  display: flex;
+}
+#a, #m{
+  background-color: white;
+  width: 80%;
+  height: 180px;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  margin: 10px;
+  color: rgb(90, 90, 180);
+}
+li{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
